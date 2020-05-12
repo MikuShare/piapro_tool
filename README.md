@@ -5,7 +5,10 @@ Python3
 # Use
 ```sh
 pip install requests
+pip install win32-setctime
+python piapro.py login username password #Do login and save cookies
 python piapro.py https://piapro.jp/t/d8wT # 音乐
+python piapro.py auth shinra_logic #Download whole library of the author shinra_logic
 ```
 # Output
 ```sh
